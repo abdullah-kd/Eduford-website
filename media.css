@@ -1,5 +1,10 @@
-@media (max-width:63em) {
 
+
+
+@media (max-width:63em) {
+html{
+    font-size: 56.2%;
+}
     .header{
         position: relative;
         
@@ -32,4 +37,38 @@
         width: 50vw;
         opacity: 0;
     }
+}
+
+@media (max-width:52em) {
+html{
+    font-size: 50%;
+}
+}
+
+@media (max-width:26em) {
+html{
+    font-size: 45%;
+}
+
+.grid--2,.grid--3{
+    grid-template-columns: 1fr;
+}
+
+nav{
+    padding: 1rem 2rem;
+}
+.logo img {
+  width: 55%;
+}
+.header-text h1 {
+    font-size: 3rem;
+    
+}
+.text-footer h2{
+    font-size: 3rem;
+}
+.more{
+    font-size: 1.4rem;
+    padding: 5px 15px;
+}
 }
